@@ -108,19 +108,19 @@ hybrid_recommendations = get_hybrid_recommendations('Die Hard (1988)', user_id=1
 print(hybrid_recommendations)
 ```
 ## Advantages
--**Comprehensive Recommendations:** Combines content-based and collaborative filtering methods, making the recommendations more accurate and diverse.
--**Flexibility:** Adjusts the importance of content-based vs. collaborative scores with the alpha parameter.
--**Improved Accuracy:** Addresses the weaknesses of using either method alone, leading to better overall recommendations.
+- **Comprehensive Recommendations:** Combines content-based and collaborative filtering methods, making the recommendations more accurate and diverse.
+- **Flexibility:** Adjusts the importance of content-based vs. collaborative scores with the alpha parameter.
+- **Improved Accuracy:** Addresses the weaknesses of using either method alone, leading to better overall recommendations.
 
 ## Disadvantages
--**Complexity:** More complicated than using just one recommendation method.
--**Cold Start Problem:** New movies without enough tags or ratings may not be recommended effectively.
--**Resource Intensive:** Requires computation of similarities based on both content and user ratings, which can be resource-heavy.
+- **Complexity:** More complicated than using just one recommendation method.
+- **Cold Start Problem:** New movies without enough tags or ratings may not be recommended effectively.
+- **Resource Intensive:** Requires computation of similarities based on both content and user ratings, which can be resource-heavy.
 
 ## Usage
--**Ensure you have movies.csv, tags.csv, and ratings.csv in your working directory.**
--**Run the script to load data, compute similarities, and get recommendations.**
--**Modify the example movie title and user ID to test different recommendations.**
+- **Ensure you have movies.csv, tags.csv, and ratings.csv in your working directory.**
+- **Run the script to load data, compute similarities, and get recommendations.**
+- **Modify the example movie title and user ID to test different recommendations.**
 
  ## License
 
